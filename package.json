@@ -1,0 +1,30 @@
+{
+  "name": "node-server-graphql",
+  "version": "1.0.0",
+  "description": "Node JS Server Graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuNguyenThanh/node-server-graphql.git"
+  },
+  "author": "Tu Nguyen Thanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuNguyenThanh/node-server-graphql/issues"
+  },
+  "homepage": "https://github.com/TuNguyenThanh/node-server-graphql#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pg": "^7.0.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
